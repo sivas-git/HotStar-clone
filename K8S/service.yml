@@ -9,4 +9,5 @@ spec:
     - protocol: TCP
       port: 80  # Port exposed by the service externally (outside the cluster)
       targetPort: 3001  # Port your application listens on inside the pods
+      nodePort: 31001
   type: NodePort
