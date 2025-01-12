@@ -16,4 +16,4 @@ spec:
       - name: hotstar
         image: gashok13193/hotstar:latest
         ports:
-        - containerPort: 3000
+        - containerPort: 3001
