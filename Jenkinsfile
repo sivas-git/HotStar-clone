@@ -1,9 +1,6 @@
 pipeline {
     agent any
-    tools {
-        jdk 'Java-21'
-        nodejs 'node'
-    }
+    
     environment {
         SCANNER_HOME = tool 'sonar-scanner'
         PORT = '3000'
